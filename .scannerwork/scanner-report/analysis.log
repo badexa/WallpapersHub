@@ -1,0 +1,53 @@
+Plugins:
+Bundled analyzers:
+  - Clean as You Code 2.2.2.656 (cayc)
+  - IaC Code Quality and Security 1.22.0.7057 (iac)
+  - PL/SQL Code Quality and Security 3.11.0.6370 (plsql)
+  - Scala Code Quality and Security 1.15.0.4655 (sonarscala)
+  - C# Code Quality and Security 9.13.0.79967 (csharp)
+  - Vulnerability Analysis 10.3.0.27281 (security)
+  - Java Code Quality and Security 7.27.1.33504 (java)
+  - HTML Code Quality and Security 3.11.0.4708 (web)
+  - Flex Code Quality and Security 2.12.0.4568 (flex)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+  - Text Code Quality and Security 2.7.1.1388 (text)
+  - VB.NET Code Quality and Security 9.13.0.79967 (vbnet)
+  - Swift Code Quality and Security 4.11.0.6055 (swift)
+  - CFamily Code Quality and Security 6.50.0.64514 (cpp)
+  - Python Code Quality and Security 4.10.0.13725 (python)
+  - Dataflow Bug Detection Rules for Python 1.19.0.6564 (dbdpythonfrontend)
+  - Dataflow Bug Detection 1.19.0.6564 (dbd)
+  - Go Code Quality and Security 1.15.0.4655 (go)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - Kotlin Code Quality and Security 2.18.0.2938 (kotlin)
+  - Dataflow Bug Detection Rules for Java 1.19.0.6564 (dbdjavafrontend)
+  - T-SQL Code Quality and Security 1.11.0.6885 (tsql)
+  - JavaScript/TypeScript/CSS Code Quality and Security 10.9.0.24449 (javascript)
+  - Ruby Code Quality and Security 1.15.0.4655 (ruby)
+  - Vulnerability Rules for C# 10.3.0.27281 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 10.3.0.27281 (securityjavafrontend)
+  - Vulnerability Rules for JS 10.3.0.27281 (securityjsfrontend)
+  - Vulnerability Rules for Python 10.3.0.27281 (securitypythonfrontend)
+  - PHP Code Quality and Security 3.33.0.11274 (php)
+  - ABAP Code Quality and Security 3.14.0.5470 (abap)
+  - Configuration detection for Code Quality and Security 1.3.0.654 (config)
+  - Vulnerability Rules for PHP 10.3.0.27281 (securityphpfrontend)
+Global server settings:
+  - sonar.core.id=92D88F0A-AYyP3ZXIand9NEpmkYmq
+  - sonar.core.startTime=2023-12-22T15:28:11+0100
+  - sonar.forceAuthentication=true
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+Project server settings:
+Project scanner properties:
+  - sonar.host.url=http://localhost:9000
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=D:\Wallpaper Project React (Fadil)
+  - sonar.projectKey=pr
+  - sonar.projectkey=pr
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=5.0.0.2966
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=.
+  - sonar.token=******
+  - sonar.working.directory=D:\Wallpaper Project React (Fadil)\.scannerwork
