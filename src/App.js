@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Discover from './components/pages/Discover';
@@ -11,11 +10,14 @@ import Samurai from './components/pages/Samurai';
 import Animals from './components/pages/Animals';
 import Space from './components/pages/Space';
 import Abstract from './components/pages/Abstract';
+import { Provider } from 'react-redux';
+import store from './redux/store'; 
 
 
 function App() {
   return (
     <>
+     <Provider store={store}>
       <Router>
         <Navbar />
         <Routes>
@@ -34,7 +36,7 @@ function App() {
 
       </Router>
 
-      
+      </Provider>
     </>
   );
 }

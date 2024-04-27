@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import '../App.css';
+
 
 const Space = styled.div`
   background-color: black;

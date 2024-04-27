@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css'
+
 import Cards5 from '../Cards5';
 import Footer from '../Footer';
 

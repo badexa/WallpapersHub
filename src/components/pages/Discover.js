@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css' 
+
 import Genre from "../Genre";
 import Footer from "../Footer";
 

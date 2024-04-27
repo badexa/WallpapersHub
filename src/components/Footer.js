@@ -42,7 +42,7 @@ function Footer() {
 
         <FooterSection>
           <CopyrightText>
-            &copy; Bader Belhaj Allal Website 2023
+            &copy; Bader Belhaj Allal / Khadija Ktatni Website 2023
           </CopyrightText>
         </FooterSection>
       </StyledFooter>

@@ -63,7 +63,7 @@ const fadeImages = [
  return (
         <Espace>
     <div className="slide-container">
-      <Fade Duration={1000}>
+      <Fade Duration={500}>
         {fadeImages.map((fadeImage, index) => (
           <Div key={index}>
             <img style={{ width: '100%', height:'500px' , borderRadius: '10px',border:'solid #FFD700 5px' }} src={fadeImage.url} alt={`Slide ${index + 1}`} />
